@@ -17,10 +17,11 @@ exports.update = (req, res) => {
 exports.delete = (req, res) => {
   res.send({ message: "delete handler" });
 };
+
 exports.deleteAll = (req, res) => {
   res.send({ message: "deleteAll handler" });
 };
 
-exports.findAlLFavorite = (req, res) => {
+exports.findAllFavorite = (req, res) => {
   res.send({ message: "findAllFavorite handler" });
 };
